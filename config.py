@@ -1,0 +1,5 @@
+MODEL_NAME = "all-MiniLM-L6-v2"
+SIMILARITY_THRESHOLD = 0.65
+TOP_K_MATCHES = 5
+APP_NAME = "Resume Analyzer API"
+DEBUG = True
