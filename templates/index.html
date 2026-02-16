@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ATS Resume Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>ATS Resume Analyzer</h1>
+
+    <textarea id="resume_text" placeholder="Paste Resume Text"></textarea>
+
+    <textarea id="job_description" placeholder="Paste Job Description"></textarea>
+
+    <button onclick="analyze()">Analyze Resume</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
